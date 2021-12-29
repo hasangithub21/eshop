@@ -14,6 +14,7 @@
   align-items: center;
 }
 .header a {
+  z-index: 999;
   position: fixed;
   color: royalblue;
   margin-left: 8%;
@@ -24,6 +25,7 @@
 }
 .search-area {
   right: 0;
+  z-index: 999;
   position: fixed;
   margin-right: 2%;
   border: 2px solid rgba(218, 210, 210, 0.507);
